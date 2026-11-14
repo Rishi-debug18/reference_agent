@@ -9,10 +9,13 @@ needs a network, a file or a model, it does not belong in this repository.
 ## Using it
 
 ```python
-from toolbox.text import word_count, truncate
+from toolbox.text import word_count, truncate, open_review_in_notepad, submit_review
 
 word_count("one two three")      # 3
 truncate("hello world", 8)       # 'hello...'
+
+# Open or prepare review.txt in Notepad
+open_review_in_notepad("review.txt")
 ```
 
 ## Running the tests
